@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		DCC2EEAF2D2F04860011C62D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCC2EE942D2F04820011C62D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCC2EE9B2D2F04820011C62D;
+			remoteInfo = QuickBuy;
+		};
+		DCC2EEB92D2F04860011C62D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCC2EE942D2F04820011C62D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCC2EE9B2D2F04820011C62D;
+			remoteInfo = QuickBuy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCC2EE9C2D2F04820011C62D /* QuickBuy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickBuy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC2EEAE2D2F04860011C62D /* QuickBuyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickBuyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC2EEB82D2F04860011C62D /* QuickBuyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickBuyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DCC2EE9E2D2F04820011C62D /* QuickBuy */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = QuickBuy;
+			sourceTree = "<group>";
+		};
+		DCC2EEB12D2F04860011C62D /* QuickBuyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = QuickBuyTests;
+			sourceTree = "<group>";
+		};
+		DCC2EEBB2D2F04860011C62D /* QuickBuyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = QuickBuyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCC2EE992D2F04820011C62D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC2EEAB2D2F04860011C62D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC2EEB52D2F04860011C62D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCC2EE932D2F04820011C62D = {
+			isa = PBXGroup;
+			children = (
+				DCC2EE9E2D2F04820011C62D /* QuickBuy */,
+				DCC2EEB12D2F04860011C62D /* QuickBuyTests */,
+				DCC2EEBB2D2F04860011C62D /* QuickBuyUITests */,
+				DCC2EE9D2D2F04820011C62D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCC2EE9D2D2F04820011C62D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCC2EE9C2D2F04820011C62D /* QuickBuy.app */,
+				DCC2EEAE2D2F04860011C62D /* QuickBuyTests.xctest */,
+				DCC2EEB82D2F04860011C62D /* QuickBuyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCC2EE9B2D2F04820011C62D /* QuickBuy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC2EEC22D2F04860011C62D /* Build configuration list for PBXNativeTarget "QuickBuy" */;
+			buildPhases = (
+				DCC2EE982D2F04820011C62D /* Sources */,
+				DCC2EE992D2F04820011C62D /* Frameworks */,
+				DCC2EE9A2D2F04820011C62D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DCC2EE9E2D2F04820011C62D /* QuickBuy */,
+			);
+			name = QuickBuy;
+			packageProductDependencies = (
+			);
+			productName = QuickBuy;
+			productReference = DCC2EE9C2D2F04820011C62D /* QuickBuy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCC2EEAD2D2F04860011C62D /* QuickBuyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC2EEC52D2F04860011C62D /* Build configuration list for PBXNativeTarget "QuickBuyTests" */;
+			buildPhases = (
+				DCC2EEAA2D2F04860011C62D /* Sources */,
+				DCC2EEAB2D2F04860011C62D /* Frameworks */,
+				DCC2EEAC2D2F04860011C62D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCC2EEB02D2F04860011C62D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DCC2EEB12D2F04860011C62D /* QuickBuyTests */,
+			);
+			name = QuickBuyTests;
+			packageProductDependencies = (
+			);
+			productName = QuickBuyTests;
+			productReference = DCC2EEAE2D2F04860011C62D /* QuickBuyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCC2EEB72D2F04860011C62D /* QuickBuyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC2EEC82D2F04860011C62D /* Build configuration list for PBXNativeTarget "QuickBuyUITests" */;
+			buildPhases = (
+				DCC2EEB42D2F04860011C62D /* Sources */,
+				DCC2EEB52D2F04860011C62D /* Frameworks */,
+				DCC2EEB62D2F04860011C62D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCC2EEBA2D2F04860011C62D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DCC2EEBB2D2F04860011C62D /* QuickBuyUITests */,
+			);
+			name = QuickBuyUITests;
+			packageProductDependencies = (
+			);
+			productName = QuickBuyUITests;
+			productReference = DCC2EEB82D2F04860011C62D /* QuickBuyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCC2EE942D2F04820011C62D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					DCC2EE9B2D2F04820011C62D = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					DCC2EEAD2D2F04860011C62D = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = DCC2EE9B2D2F04820011C62D;
+					};
+					DCC2EEB72D2F04860011C62D = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = DCC2EE9B2D2F04820011C62D;
+					};
+				};
+			};
+			buildConfigurationList = DCC2EE972D2F04820011C62D /* Build configuration list for PBXProject "QuickBuy" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCC2EE932D2F04820011C62D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DCC2EE9D2D2F04820011C62D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCC2EE9B2D2F04820011C62D /* QuickBuy */,
+				DCC2EEAD2D2F04860011C62D /* QuickBuyTests */,
+				DCC2EEB72D2F04860011C62D /* QuickBuyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCC2EE9A2D2F04820011C62D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC2EEAC2D2F04860011C62D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC2EEB62D2F04860011C62D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCC2EE982D2F04820011C62D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC2EEAA2D2F04860011C62D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC2EEB42D2F04860011C62D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCC2EEB02D2F04860011C62D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCC2EE9B2D2F04820011C62D /* QuickBuy */;
+			targetProxy = DCC2EEAF2D2F04860011C62D /* PBXContainerItemProxy */;
+		};
+		DCC2EEBA2D2F04860011C62D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCC2EE9B2D2F04820011C62D /* QuickBuy */;
+			targetProxy = DCC2EEB92D2F04860011C62D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DCC2EEC02D2F04860011C62D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCC2EEC12D2F04860011C62D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCC2EEC32D2F04860011C62D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuickBuy/Preview Content\"";
+				DEVELOPMENT_TEAM = XU8Q77LPJV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZiyadQassem.QuickBuy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCC2EEC42D2F04860011C62D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuickBuy/Preview Content\"";
+				DEVELOPMENT_TEAM = XU8Q77LPJV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZiyadQassem.QuickBuy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCC2EEC62D2F04860011C62D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XU8Q77LPJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZiyadQassem.QuickBuyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickBuy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuickBuy";
+			};
+			name = Debug;
+		};
+		DCC2EEC72D2F04860011C62D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XU8Q77LPJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZiyadQassem.QuickBuyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickBuy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuickBuy";
+			};
+			name = Release;
+		};
+		DCC2EEC92D2F04860011C62D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XU8Q77LPJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZiyadQassem.QuickBuyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuickBuy;
+			};
+			name = Debug;
+		};
+		DCC2EECA2D2F04860011C62D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XU8Q77LPJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZiyadQassem.QuickBuyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuickBuy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCC2EE972D2F04820011C62D /* Build configuration list for PBXProject "QuickBuy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC2EEC02D2F04860011C62D /* Debug */,
+				DCC2EEC12D2F04860011C62D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC2EEC22D2F04860011C62D /* Build configuration list for PBXNativeTarget "QuickBuy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC2EEC32D2F04860011C62D /* Debug */,
+				DCC2EEC42D2F04860011C62D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC2EEC52D2F04860011C62D /* Build configuration list for PBXNativeTarget "QuickBuyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC2EEC62D2F04860011C62D /* Debug */,
+				DCC2EEC72D2F04860011C62D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC2EEC82D2F04860011C62D /* Build configuration list for PBXNativeTarget "QuickBuyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC2EEC92D2F04860011C62D /* Debug */,
+				DCC2EECA2D2F04860011C62D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCC2EE942D2F04820011C62D /* Project object */;
+}
